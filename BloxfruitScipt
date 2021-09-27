@@ -13,6 +13,6 @@ TextColor = Color3.fromRGB(255, 255, 255)
 local page = venyx:addPage("key", 5012544693)
 local section1 = page:addSection("Section 1")
 section1:addTextbox("Key", "Keys must be in here!", function(value, focusLost)
-if value = "0GUoJlSnoCHDeF4" then
+if value == "0GUoJlSnoCHDeF4" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/ALLFREE/main/hyperx.lua"))()
 end
